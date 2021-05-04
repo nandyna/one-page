@@ -1,0 +1,33 @@
+.navigasi ul
+{
+    list-style-type: none;
+    background-color: #abd5ff;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.navigasi li
+{
+    float: left;
+}
+
+.navigasi ul li a
+{
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.navigasi ul li a :hover
+{
+    background-color: rgb(7, 74, 129);
+    transition: 1s;
+}

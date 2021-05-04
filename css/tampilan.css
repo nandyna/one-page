@@ -1,0 +1,245 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RoseCake';
+}
+
+/*import font tambahan*/
+@font-face
+{
+    font-family: 'fontSweetTalk';
+    src: url(../font/Sweet\ Talk.otf);
+}
+
+/*CARI FOLDER DI LUAR CSS PAKAI TITIK DAN SLASH*/
+
+@font-face
+{
+    font-family: 'RoseCake';
+    src: url(../font/Rose\ Cake\ -\ Personal\ Use.otf);
+}
+
+body, section, html
+{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+section
+{
+    padding: 100px;
+}
+
+.baris
+{
+    overflow: hidden;
+    border: 0px solid black;
+}
+
+.kolom
+{
+    border: 0px solid darkgray;
+    float: left;
+}
+
+.kolom-50
+{
+    width: 50%;
+    padding: 25px;
+}
+
+#home
+{
+    background-color: #3a5fa6;
+    color: white;
+    padding: 50px;
+    padding-top: 80px;
+}
+
+.teks-judul
+{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'fontSweetTalk';
+}
+
+.teks-slogan
+{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'fontSweetTalk';
+}
+
+.marginAtas
+{
+    margin-top: 50px;
+}
+
+.tombol
+{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 7px;
+    display: block;
+    margin-top: 20px;
+}
+
+.tombol-daftar
+{
+    background-color: #004087;
+}
+
+.tombol-besar
+{
+    padding: 17px;
+    width: 40%;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.tombol-selengkapnya
+{
+    background-color: rgb(87, 171, 209);
+    padding: 8px;
+}
+
+.tombil:hover
+{
+    background-color: black;
+    transition: 1s;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin-bottom: 20px;
+}
+
+.gambarSlick img
+{
+    width: 100%;
+    height: 300px;
+    border: 5 solid white;
+    display: block;
+    margin: auto;
+}
+
+.padding-50
+{
+    padding: 50px;
+}
+
+.padding-20
+{
+    padding: 20px;
+}
+
+.padding-15
+{
+    padding: 15px;
+}
+
+.kolom-30
+{
+    width: 33%;
+}
+
+.kolom-25
+{
+    width: 25%;
+    padding: 10px;
+}
+
+.gambar-kolom
+{
+    width: 100%;
+}
+
+.gambar-bulat
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 13px;
+}
+
+.teks-titel
+{
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#pelajaran
+{
+    
+    color: white;
+    background-color: #223963;
+}
+
+#pelajaran h1
+{
+    font-family: 'RoseCake';
+    font-size: 50px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+#paket
+{
+    background-color: rgba(30, 30, 150, 0.753);
+    color: white;
+}
+
+#paket h1
+{
+    font-family: 'RoseCake';
+    font-size: 50px;
+    letter-spacing: 7px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+#paket .gambar-bulat
+{
+    border: 5px solid white;
+}
+
+#dokumentasi
+{
+    background-color: rgb(25, 33, 68);
+    color: white;
+    padding: 50px;
+}
+
+#dokumentasi h1
+{
+    font-family: 'fontSweetTalk';
+    font-size: 50px;
+    letter-spacing: 7px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.gambarGaleri
+{
+    display: inline-block;
+    margin: 10px;
+    width: 23%;
+    border: 5px solid white;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 7px;
+    padding: 35px;
+}
